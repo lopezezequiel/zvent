@@ -1,0 +1,12 @@
+<div class="well">
+
+	
+	<a class="btn btn-default" onclick="zvent.trigger('#examples/trigger', 'PUT', {tvshow: 'Sherlock'})">PUT</a>
+	<a class="btn btn-default" onclick="zvent.trigger('#examples/trigger?tvshow=Sherlock', 'GET')">GET</a>
+	<a class="btn btn-default" onclick="zvent.trigger('#examples/trigger?tvshow=Sherlock', 'GET', {tvshow: 'Castle'})">GET(passing params)</a>
+
+	<div class="form-group">
+		<label for="output">Output:</label>
+		<textarea id="output" class="form-control" rows="5"></textarea>
+	</div>
+</div>
