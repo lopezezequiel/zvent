@@ -167,7 +167,7 @@ var zvent = new function() {
     }
 
 
-    this.suscribe = function(pattern, callback) {
+    this.subscribe = function(pattern, callback) {
         if(!isRegex(pattern)) {
             console.log('first parameter(url) must be RegExp type');
             return;
