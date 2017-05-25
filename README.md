@@ -1,4 +1,12 @@
 # Zvent!
-Router. Supports hash and forms.
+Client Side Router. Supports hash and forms.
+
+## Features
+- Hash Routing
+- Form Routing
+- Methods GET, POST, PUT, PATCH, DELETE
+- Custom methods
+- Query Strings
+- Hash Parameter Capture
 
 [Examples](http://zvent.lopezezequiel.com/)
