@@ -1,3 +1,9 @@
+/*
+ * Author: lopez ezequiel
+ * Website: zvent.lopezezequiel.com
+ * License: MIT
+ */
+
 var zvent = new function() {
 
     var routes = [];

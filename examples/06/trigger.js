@@ -1,4 +1,4 @@
-zvent.suscribe(/examples\/trigger/, function(request) {
+zvent.subscribe(/examples\/trigger/, function(request) {
 	var output = document.getElementById('output');
 	output.value = 'hash: ' + request.hash;
 	output.value += '\nmethod: ' + request.method;

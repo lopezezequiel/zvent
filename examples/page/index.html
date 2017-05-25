@@ -13,6 +13,8 @@
 	<style>
 		body {
 			padding-top: 50px;
+			background-image: url("background.jpg");
+			background-size: 100% 100%;
 		}
 	</style>
 	<!--[if lt IE 9]>
@@ -27,12 +29,13 @@
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand">Zvent!</a>
+					<a class="navbar-brand"><strong>Zvent!</strong></a>
 					<p class="navbar-text">A Simple Router</p>
+					<p class="navbar-text"><a href="https://github.com/lopezezequiel/zvent">Download</a></p>
 				</div>
 			</div>
 		</nav>
-		
+
 		<div class="panel panel-default">
 			<div class="panel-heading"><strong>1. Basic Use</strong></div>
 			<div class="panel-body">
@@ -44,9 +47,9 @@
 		<div class="panel panel-default">
 			<div class="panel-heading"><strong>2. Query Strings</strong></div>
 			<div class="panel-body">
-				<p>Important: Zvent! does not decode querystrings. 
+				<p><strong>Important:</strong> Zvent! does not decode querystrings. 
 				So it is better to use querystrings without encoding.
-				If you want to use encoded querystrings anyway you can apply the <strong>decodeURI()</strong> function inside the callback</p>
+				If you want to use encoded querystrings anyway you can apply the <strong>decodeURI()</strong> function inside the callback.</p>
 			</div>
 			<script async src="//jsfiddle.net/lopezezequiel/pgpgs62v/embed/js,html,result/"></script>
 		</div>
@@ -62,7 +65,7 @@
 		<div class="panel panel-default">
 			<div class="panel-heading"><strong>4. Forms</strong></div>
 			<div class="panel-body">
-				<p>Important: The form action have to start with '#'</p>
+				<p><strong>Important:</strong> The form action have to start with '#'. </p>
 			</div>
 			<script async src="//jsfiddle.net/lopezezequiel/6kwnrum2/embed/js,html,result/"></script>
 		</div>
@@ -78,7 +81,7 @@
 		<div class="panel panel-default">
 			<div class="panel-heading"><strong>6. Trigger</strong></div>
 			<div class="panel-body">
-				<p></p>
+				<p><strong>Important:</strong> If you use the 'GET' method and do not pass the third parameter the data will be extracted from the querystring.</p>
 			</div>
 			<script async src="//jsfiddle.net/lopezezequiel/3wbn1rsk/embed/js,html,result/"></script>
 		</div>
@@ -86,7 +89,7 @@
 		<div class="panel panel-default">
 			<div class="panel-heading"><strong>7. Shortcuts</strong></div>
 			<div class="panel-body">
-				<p></p>
+				<p><strong>POST()</strong>, <strong>GET()</strong>, <strong>PUT()</strong>, <strong>PATCH()</strong>, <strong>DELETE()</strong></p>
 			</div>
 			<script async src="//jsfiddle.net/lopezezequiel/tyresahy/embed/js,html,result/"></script>
 		</div>

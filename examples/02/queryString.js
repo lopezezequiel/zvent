@@ -1,4 +1,4 @@
-zvent.suscribe(/examples\/queryString/, function(request) {
+zvent.subscribe(/examples\/queryString/, function(request) {
 	var output = document.getElementById('output');
 	output.value = 'hash: ' + request.hash;
 	output.value += '\nmethod: ' + request.method;
