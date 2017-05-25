@@ -7,6 +7,6 @@ Client Side Router. Supports hash and forms.
 - Methods GET, POST, PUT, PATCH, DELETE
 - Custom methods
 - Query Strings
-- Hash Parameter Capture
+- Parameter Capture
 
 [Examples](http://zvent.lopezezequiel.com/)
