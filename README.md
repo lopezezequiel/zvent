@@ -10,4 +10,4 @@ Client Side Router. Supports hash and forms.
 - Parameter Capture
 
 ## Project Website
-[Examples](http://zvent.lopezezequiel.com/)
+[http://zvent.lopezezequiel.com/](http://zvent.lopezezequiel.com/)
